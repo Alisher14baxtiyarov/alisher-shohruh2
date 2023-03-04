@@ -53,20 +53,28 @@
     padding: 6rem;
 }
 
+.about__item{
+    width: 100%;
+    background-color: rgb(232, 255, 253);
+}
 .people__content{
     width: 100%;
     display: grid;
     grid-template-columns: 100%;
 }
 
+.people__title{
+    width: 100%;
+    height: 70%;
+    background-color: #202020;
+    padding: 4rem 0;
+}
 .people__img img{
     width: 80px;
     height: 80px;
     position: absolute;
     border-radius: 100%;
-}
-.people__img img{
-    display: none;
+    margin-left: 14%;
 }
 .people__img h4{
     color: white;
@@ -74,14 +82,22 @@
     text-align: center;
     padding-top: 20px;
 }
+.pricing{
+    text-align: center;
+}
 
 .pricing__content{
     width: 100%;
     display: grid;
-    grid-template-columns: 100%;
-    gap: 0.5rem;
+    grid-template-columns:100%;
+    gap: 1.5rem;
 }
-
+.pricing__item{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 2rem 0;
+}
 .contact__content input{
     width:88%;
     margin-top: 1rem;
@@ -103,7 +119,31 @@
     border-radius: 20px;
     margin-bottom: 2rem;
 }
+
+.contact__content textarea{
+    width: 85%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* res 368px */
 @media only screen and (max-width:368px) {
@@ -121,6 +161,12 @@
     color: blue;
     font-size: 0.9rem;
     width: 100%;
+}
+
+.pricing{
+    width: 100%;
+    padding: 4.8rem 0;  
+    background-color: #F9F9F9;
 }
 
 .pricing__item{
@@ -172,5 +218,40 @@
     text-align: left;
     margin-bottom: 6rem;
     width: 100%;
+}
+
+.about__content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3rem;
+    padding: 6rem 0;
+}
+.about__item{
+    width: 100%;
+    background-color: rgb(232, 255, 253);
+}
+
+.pricing__content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 0.5rem;
+    text-align: center;
+}
+.pricing__item{
+    width: 365px;
+    height: 390px;
+    background-color: white;
+    padding: 2rem 0;
+}
+.contact__content textarea{
+    width: 90%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
 }
 }
