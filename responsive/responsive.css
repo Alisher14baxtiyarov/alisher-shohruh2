@@ -1,0 +1,135 @@
+@media only screen and (max-width:768px) {
+    
+.container{
+    max-width: 100%;
+}
+
+.nav__bar a{
+    display: none;
+}
+
+.nav a{
+    display: none;
+}
+.nav .fa-bars{
+    display: block;
+}
+
+.home__info{
+    width: 100%;
+}
+
+.home__info h3{
+    color: black;
+    font-family: Ubuntu;
+    text-align: center;
+    font-size: 1rem;
+}
+.home__info h1{
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: blue;
+    font-size: 1.5rem;
+    width: 100%;
+}
+.home__info input{
+    margin-bottom: 1rem;
+}
+
+.features__content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3rem;
+}
+
+.about__content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 3rem;
+    padding: 6rem;
+}
+
+.people__content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.people__img img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    border-radius: 100%;
+}
+.people__img img{
+    display: none;
+}
+.people__img h4{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pricing__content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 0.5rem;
+}
+
+.contact__content input{
+    width:88%;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.contact__content input[type="submit"]{
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    width: 35%;
+    background-color: #202020;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+}
+
+/* res 368px */
+@media only screen and (max-width:368px) {
+    
+.home__info h3{
+    color: black;
+    font-family: Ubuntu;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.home__info h1{
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: blue;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+.home__info input{
+    margin-bottom: 0.2rem;
+}
+
+.home__info input{
+    display: none;
+}
+.home__info button{
+    display: none;
+}
+}
