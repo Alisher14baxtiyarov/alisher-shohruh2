@@ -74,7 +74,7 @@
     height: 70px;
     position: absolute;
     border-radius: 100%;
-    margin-left: 14%;
+    margin-left: 5%;
 }
 .people__img h4{
     color: white;
@@ -148,6 +148,14 @@
 /* res 368px */
 @media only screen and (max-width:368px) {
     
+.header{
+    width: 100%;
+    height: 60vh;
+    background-image: url(/images/home-bg.jpg)  ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+}
 .home__info p{
     color: black;
     font-family: Ubuntu;
